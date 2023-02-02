@@ -1,0 +1,3 @@
+zPos = mmc.getPosition();
+zPos -= 2;
+mmc.setPosition(zPos);

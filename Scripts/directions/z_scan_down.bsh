@@ -1,0 +1,9 @@
+zStart = 180;
+zEnd = 230;
+zStep = 1;
+delayTime = 250;
+
+for (int pos = zEnd; pos >= zStart; pos -= zStep) {
+    mmc.setPosition(pos);
+    gui.sleep(delayTime);
+}
